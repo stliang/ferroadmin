@@ -1,4 +1,5 @@
 serviceAccountKey.json
+
 # dependencies
 /node_modules
 /.pnp
@@ -9,6 +10,7 @@ serviceAccountKey.json
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store

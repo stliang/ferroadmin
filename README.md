@@ -46,3 +46,11 @@ npm run user <email>
 ```
 npm run grant <anonymous | basic | prime | admin> <email>
 ```
+
+## TODO
+[ ] List users and roles
+[ ] Update user role
+[ ] Run local web server
+
+## Design Questions
+Why do I need a express server?  Counldn't I just use React App?

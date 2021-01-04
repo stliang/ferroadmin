@@ -35,22 +35,23 @@ $ npm install
 $ npm run build
 ```
 
-4. Get user information
+4. List users
+
+```
+npm run listUsers
+```
+
+5. Get user information
 
 ```
 npm run user <email>
 ```
 
-5. Grant user a role
+6. Grant user a role
 
 ```
 npm run grant <anonymous | basic | prime | admin> <email>
 ```
 
 ## TODO
-[ ] List users and roles
-[ ] Update user role
-[ ] Run local web server
-
-## Design Questions
-Why do I need a express server?  Counldn't I just use React App?
+[x] List users and roles

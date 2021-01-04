@@ -37,3 +37,7 @@ export async function checkAuth(idToken: string): Promise<void> {
 export async function getUser(email: string): Promise<admin.auth.UserRecord> {
   return admin.auth().getUserByEmail(email);
 }
+
+export async function listUsers(): Promise<admin.auth.ListUsersResult> {
+  return admin.auth().listUsers();
+}

@@ -54,4 +54,4 @@ npm run grant <anonymous | basic | prime | admin> <email>
 ```
 
 ## TODO
-1. [x] List users and roles
+1. [x] List users

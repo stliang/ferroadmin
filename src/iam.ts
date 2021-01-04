@@ -1,7 +1,7 @@
 import * as admin from 'firebase-admin';
 
 // User roles
-export const roles: string[] = ['anonymous', 'basic', 'paid', 'admin'];
+export const roles: string[] = ['anonymous', 'basic', 'prime', 'admin'];
 
 // User privilege levels
 export const adminLevel = roles;

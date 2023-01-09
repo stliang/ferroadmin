@@ -17,7 +17,7 @@
     "upload-data": "node dist/upload.js"
   },
   "dependencies": {
-    "firebase-admin": "^9.4.2"
+    "firebase-admin": "^11.4.1"
   },
   "devDependencies": {
     "typescript": "^2.7.2",
